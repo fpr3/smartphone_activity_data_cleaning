@@ -7,10 +7,22 @@
 # is taken from the UCI machine learning repository and can be found here:
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 #
-# The following steps are performed by the code below. Since the order is 
+# The following operations are performed by the code below. Since the order is 
 # not maintained, each step is identified in the comments both by description
-# and by inclusion of the step number in parenthesis at the end of the comment
+# and by inclusion of its number below in parenthesis at the end of the comment
 # line. All steps are completed and the output is consistent with expectations.
+# 
+# Required operations:
+#    1. Merges the training and the test sets to create one data set.
+#    2. Extracts only the measurements on the mean and standard deviation for 
+#       each measurement.
+#    3. Uses descriptive activity names to name the activities in the data set
+#    4. Appropriately labels the data set with descriptive variable names.
+#    5. From the data set in step 4, creates a second, independent tidy data 
+#       set with the average of each variable for each activity and each 
+#       subject.
+#
+#  The final dataset created is then written to a text file that is submitted.
 #
 ###############################################################################
 
